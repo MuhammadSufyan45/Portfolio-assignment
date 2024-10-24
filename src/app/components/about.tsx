@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Aboutimg from "../../../public/aboutimg.png";
-import Button from "./button";
 import Button2 from "./button2";
 
 

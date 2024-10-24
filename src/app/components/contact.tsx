@@ -1,5 +1,3 @@
-import Button from "./button";
-
 export default function Contact(){
     return(
         <div id="contact" className="p-6 bg-black mx-auto py-10 sm:px-[40px]">
