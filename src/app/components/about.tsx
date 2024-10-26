@@ -17,9 +17,9 @@ export default function About(){
                 </div>
 
                 <div className="sm:p-4">
-             <p className="text-white mt-[10px] ml-[20px] sm:w-[900px] sm:h-auto sm:text-2xl sm:mt-[250px] sm:mr-[360px]">&quot;Myself <b>Muhammad Sufyan</b> a pakistani Intermediate student 
+             <p className="text-white mt-[10px] ml-[20px] sm:w-[800px] sm:h-auto sm:text-2xl sm:mt-[250px] sm:mr-[360px]">&quot;Myself <b>Muhammad Sufyan</b> a pakistani Intermediate student 
             living in karachi.I have interest in tech world currently i am enrolled in <b>GIAIC</b> a great initiative took by governor of sindh porvince.I am always eager to learn and contribute to my society and country Thanks&quot;</p>
-            <div className="sm:flex sm:grid-cols-2 sm:gap-x-[200px] sm:items-center sm:mt-[150px]">  
+            <div className="sm:flex sm:grid-cols-2 sm:gap-x-[100px] sm:items-center sm:mt-[150px]">  
             <div className="p-7">
                 <h4 className="text-white font-medium text-xl sm:text-4xl">Skills:</h4>
                 <div className="border-2 rounded-[20px] grid grid-cols-3 gap-y-[20px] p-4 mt-[10px] sm:p-8 sm:h-[180px] sm:gap-x-[30px]">
