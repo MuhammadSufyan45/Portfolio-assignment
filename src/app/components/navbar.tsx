@@ -9,7 +9,7 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <div className="hidden md:flex justify-between items-center">
         <div className="text-white text-4xl font-bold">Portfolio</div>
-        <div className="space-x-10 ml-[1000px] flex">
+        <div className="space-x-10 ml-[1100px] flex">
           <a href='#home' className="text-gray-300 text-xl hover:text-white transition duration-300">Home</a>
 
           <a href='#about' className="text-gray-300 text-xl hover:text-white transition duration-300">About</a>
