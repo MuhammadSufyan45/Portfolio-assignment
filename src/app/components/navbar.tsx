@@ -16,7 +16,7 @@ const Navbar = () => {
 
           <a href='#contact' className="text-gray-300 text-xl hover:text-white transition duration-300">Contact</a>
         </div>
-        <button className="text-black bg-white w-[120px] h-[35px] py-[2px] px-[10px] border-[2px] text-xl hover:bg-transparent hover:text-white">Hire Me!</button>
+        <button className="text-black bg-white w-[120px] h-[35px] py-[2px] px-[10px] border-[2px] text-xl hover:bg-transparent hover:text-white transition-all duration-200 ease-in-out">Hire Me!</button>
       </div>
 
       {/* Hamburger Menu for Mobile */}

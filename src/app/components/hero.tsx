@@ -14,8 +14,8 @@ export default function Hero(){
                 <h3 className="text-white text-center font-light sm:text-[20px]">Front end Developer</h3>
                 </div>
                 <div className=" flex gap-x-[20px] items-center sm:gap-x-[40px]">
-                    <button className="w-[100px] h-[35px] py-[4px] px-[8px] bg-white text-black hover:bg-transparent hover:text-white hover:border-[2px] sm:w-[150px] sm:h-[40px] sm:py-0 sm:px-0 sm:text-xl">Contact</button>
-                    <button className="text-white w-[110px] h-[35px] py-[2px] px-[6px] border-[2px] hover:bg-white hover:text-black sm:w-[150px] sm:h-[40px] sm:py-0 sm:px-0 sm:text-xl">Learn More!</button>
+                    <button className="w-[100px] h-[35px] py-[4px] px-[8px] bg-white text-black hover:bg-transparent hover:text-white transition-all duration-200 ease-in-out hover:border-[2px] sm:w-[150px] sm:h-[40px] sm:py-0 sm:px-0 sm:text-xl">Contact</button>
+                    <button className="text-white w-[110px] h-[35px] py-[2px] px-[6px] border-[2px] hover:bg-white hover:text-black transition-all duration-200 ease-in-out sm:w-[150px] sm:h-[40px] sm:py-0 sm:px-0 sm:text-xl">Learn More!</button>
                 </div>
             </div>
         </div>
