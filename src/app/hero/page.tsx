@@ -4,7 +4,7 @@ import Hero2 from "../../../public/hero2.png";
 
 export default function Hero(){
     return(
-        <div id="home" className="bg-black w-full h-[700px] flex flex-col items-center px-[12px] sm:flex sm:flex-row sm:gap-x-[60px] sm:items-center sm:justify-between sm:p-[80px]">
+        <div className="bg-black w-full h-[850px] flex flex-col items-center px-[12px] sm:flex sm:flex-row sm:gap-x-[60px] sm:items-center sm:justify-between sm:p-[80px]">
             <div className="mt-[60px]">
                 <Image src={Hero2} alt="Pic" className="w-[350px] h-350px] rounded-full border-b-4 border-white sm:w-[600px] sm:h-[600px] sm:ml-[60px] mb-[60px]"/>
             </div>
