@@ -8,6 +8,8 @@ export default function Home() {
   return (
     <div>
       <Hero/>
+      <About />
+      <Contact />
     </div>
   );
 };

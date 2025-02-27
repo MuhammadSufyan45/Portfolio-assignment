@@ -1,6 +1,7 @@
 import "tailwindcss/tailwind.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import Head from "next/head";
 
 export default function RootLayout({
   children,
@@ -9,14 +10,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-            />
-      <body> 
-        <Navbar/>
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+      </head>
+      <body>
+        <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

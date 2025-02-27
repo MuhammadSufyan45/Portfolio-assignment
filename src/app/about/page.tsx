@@ -6,7 +6,7 @@ import Button2 from "../components/button2";
 
 export default function About(){
     return(
-        <div className="bg-black w-full h-auto py-[40px] sm:flex sm:flex-col sm:gap-x-[600px]">
+        <div id="about" className="bg-black w-full h-auto py-[40px] sm:flex sm:flex-col sm:gap-x-[600px]">
             <div className="pl-6 sm:pl-[40px] sm:mt-[80px]">
                <h3 className="text-white font-medium text-2xl sm:text-4xl sm:mt-[40px]">About Me</h3>
                <div className="bg-white w-[90px] sm:w-[130px] h-[2px] mt-[4px]"></div>

@@ -11,15 +11,15 @@ const Navbar = () => {
       <div className="hidden md:flex justify-between items-center">
         <div className="text-white text-4xl font-bold">Portfolio</div>
         <div className="space-x-10 ml-[1100px] flex">
-          <Link href='/hero'>
+          <Link href="#hero">
           <span className="text-gray-300 text-xl hover:text-white transition duration-300">Home</span>
           </Link>
 
-          <Link href='/about'>
+          <Link href="#about">
           <span className="text-gray-300 text-xl hover:text-white transition duration-300">About</span>
           </Link>
 
-          <Link href='/contact'>
+          <Link href="#contact">
           <span className="text-gray-300 text-xl hover:text-white transition duration-300">Contact</span>
           </Link>
         </div>
